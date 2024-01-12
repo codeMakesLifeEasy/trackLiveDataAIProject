@@ -1,0 +1,138 @@
+{
+    "cam_111" : {
+        "type" : "side",
+        "gate_id" : "1"
+    },
+    "cam_112" :  {
+        "type" : "front",
+        "gate_id" : "1"
+    },
+    "cam_118" : {
+        "type" : "side",
+        "gate_id" : "2"
+    },
+    "cam_119" : {
+        "type" : "front",
+        "gate_id" : "2"
+    },
+    "cam_117" : {
+        "type" : "front",
+        "gate_id" : "3"
+    },
+    "cam_121" : {
+        "type" : "side",
+        "gate_id" : "3"
+    },
+    "cam_116" : {
+        "type" : "side",
+        "gate_id" : "4"
+    },
+    "cam_142" : {
+        "type" : "front",
+        "gate_id" : "4"
+    },
+    "cam_124" : {
+        "type" : "front",
+        "gate_id" : "5"
+    },
+    "cam_127" : {
+        "type" : "side",
+        "gate_id" : "5"
+    },
+    "cam_126" : {
+        "type" : "side",
+        "gate_id" : "6"
+    },
+    "cam_136" : {
+        "type" : "front",
+        "gate_id" : "6"
+    },
+    "cam_114" : {
+        "type" : "front",
+        "gate_id" : "8"
+    },
+    "cam_123" : {
+        "type" : "side",
+        "gate_id" : "8"
+    },
+    "cam_110" : {
+        "type" : "side",
+        "gate_id" : "9"
+    },
+    "cam_113" : {
+        "type" : "front",
+        "gate_id" : "9"
+    },
+    "cam_129" : {
+        "type" : "front",
+        "gate_id" : "10"
+    },
+    "cam_138" : {
+        "type" : "side",
+        "gate_id" : "10"
+    },
+    "cam_120" : {
+        "type" : "front",
+        "gate_id" : "11"
+    },
+    "cam_131" : {
+        "type" : "side",
+        "gate_id" : "11"
+    },
+    "cam_135" : {
+        "type" : "side",
+        "gate_id" : "12"
+    },
+    "cam_141" : {
+        "type" : "front",
+        "gate_id" : "12"
+    },
+    "cam_115" : {
+        "type" : "front",
+        "gate_id" : "13"
+    },
+    "cam_128" : {
+        "type" : "side",
+        "gate_id" : "13"
+    },
+    "cam_132" : {
+        "type" : "side",
+        "gate_id" : "14"
+    },
+    "cam_133" : {
+        "type" : "front",
+        "gate_id" : "14"
+    },
+    "cam_134" : {
+        "type" : "side",
+        "gate_id" : "15"
+    },
+    "cam_139" : {
+        "type" : "front",
+        "gate_id" : "15"
+    },
+    "cam_145" : {
+        "type" : "front",
+        "gate_id" : "16"
+    },
+    "cam_146" : {
+        "type" : "side",
+        "gate_id" : "16"
+    },
+    "cam_147" : {
+        "type" : "side",
+        "gate_id" : "17"
+    },
+    "cam_148" : {
+        "type" : "front",
+        "gate_id" : "17"
+    },
+    "cam_149" : {
+        "type" : "side",
+        "gate_id" : "18"
+    },
+    "cam_150" : {
+        "type" : "front",
+        "gate_id" : "18"
+    }
+}

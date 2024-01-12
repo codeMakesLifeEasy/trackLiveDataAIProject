@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/metadata.dir/metadata_example.o -o metadata  -lcppkafka -lRdKafka::rdkafka -lBoost::boost -lBoost::program_options 

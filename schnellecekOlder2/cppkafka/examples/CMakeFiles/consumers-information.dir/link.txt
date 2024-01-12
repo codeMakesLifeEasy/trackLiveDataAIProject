@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic "CMakeFiles/consumers-information.dir/consumers_information_example.o" -o consumers-information  -lcppkafka -lRdKafka::rdkafka -lBoost::boost -lBoost::program_options 

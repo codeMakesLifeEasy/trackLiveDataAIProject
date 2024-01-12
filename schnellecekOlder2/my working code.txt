@@ -1,0 +1,103 @@
+#include <iostream>
+#include <string>
+#include <unordered_map>
+#include <random>
+#include <chrono>
+#include <thread>
+#include "processData.hpp"
+#include "occupiedStatusDetection.hpp"
+
+int main() {
+
+    std::string jsonData = R"({
+    "cam_133" : {
+      "frame_id" : "204",
+      "timestamp" : "2023-12-06T14:21:03.085Z",
+      "area" : [
+        1,
+        2
+      ],
+      "object_classes" : [
+        "truck",
+        "cover",
+        "loads"
+      ],
+      "bboxes" : [
+        [
+          45.9107666015625,
+          0.0,
+          1314.806396484375,
+          840.322509765625
+        ],
+        [
+          67.25537109375,
+          396.6380615234375,
+          1117.73974609375,
+          845.84869384765625
+        ],
+        [
+          1040.489013671875,
+          395.62054443359375,
+          1646.216064453125,
+          759.55084228515625
+        ]
+      ],
+      "object_ids" : [
+        3,
+        2,
+        1
+      ],
+      "object_positions_x_y" : [
+        [
+          715.0,
+          840.0
+        ],
+        [
+          536.0,
+          897.0
+        ]
+      ],
+      "object_area" : [
+        1,
+        1
+      ],
+     
+      "object_confidences" : [
+        0.899649977684021,
+        0.74256604909896851
+      ],
+      "object_tracking_confidences" : [
+        1.0,
+        1.0
+      ],
+      "object_association_ids" : [
+        0,
+        0
+      ]
+    }
+  })";
+
+
+    BoundingBox roi = {0, 0, 1080, 720};
+    BoundingBox truckBoundingBox = {100, 100, 300, 200};
+    std::string objectClassType = "truck";
+    std::vector<int> objectClassIds = {1, 2, 3};
+    std::string timestamp = "1234567890";
+    double threshold = 0.75;
+    bool ocrResult = true;
+    std::string gateid = "";
+
+    //DataProcessor dataProcessor;
+    TruckOccupationChecker truckOccupationChecker1;
+    TruckOccupationChecker truckOccupationChecker(roi,truckBoundingBox);
+    // Simulate continuous data arrival 24/7
+    while (true)
+    {
+    truckOccupationChecker.processContinuousData(jsonData);
+    std::this_thread::sleep_for(std::chrono::milliseconds(100));
+    std::cout<<"  "<<std::endl;
+    }
+    
+
+    return 0;
+}

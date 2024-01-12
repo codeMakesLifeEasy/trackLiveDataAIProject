@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic "CMakeFiles/consumer-dispatcher.dir/consumer_dispatcher_example.o" -o consumer-dispatcher  -lcppkafka -lRdKafka::rdkafka -lBoost::boost -lBoost::program_options 

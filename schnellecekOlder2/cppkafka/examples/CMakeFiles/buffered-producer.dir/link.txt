@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic "CMakeFiles/buffered-producer.dir/buffered_producer_example.o" -o buffered-producer  -lcppkafka -lRdKafka::rdkafka -lBoost::boost -lBoost::program_options 

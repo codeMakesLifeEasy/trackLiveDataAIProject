@@ -1,0 +1,9 @@
+/home/sentics/sentics-schnellecke-pipeline/snalika/cppkafka/examples/CMakeFiles/examples.dir
+/home/sentics/sentics-schnellecke-pipeline/snalika/cppkafka/examples/CMakeFiles/producer.dir
+/home/sentics/sentics-schnellecke-pipeline/snalika/cppkafka/examples/CMakeFiles/buffered-producer.dir
+/home/sentics/sentics-schnellecke-pipeline/snalika/cppkafka/examples/CMakeFiles/consumer.dir
+/home/sentics/sentics-schnellecke-pipeline/snalika/cppkafka/examples/CMakeFiles/consumer-dispatcher.dir
+/home/sentics/sentics-schnellecke-pipeline/snalika/cppkafka/examples/CMakeFiles/metadata.dir
+/home/sentics/sentics-schnellecke-pipeline/snalika/cppkafka/examples/CMakeFiles/consumers-information.dir
+/home/sentics/sentics-schnellecke-pipeline/snalika/cppkafka/examples/CMakeFiles/edit_cache.dir
+/home/sentics/sentics-schnellecke-pipeline/snalika/cppkafka/examples/CMakeFiles/rebuild_cache.dir
